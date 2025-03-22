@@ -140,7 +140,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # MEDIA
 MEDIA_ROOT = os.path.join(BASE_DIR , 'media')
-STATIC_URL = 'media/'
+MEDIA_URL = 'media/'
 
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
